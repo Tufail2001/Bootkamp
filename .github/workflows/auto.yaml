@@ -29,7 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install surge
       run: nmp install --global surge  
-      
     - name: Run surge
       run: surge ./ Bootkamp.surge.sh --token $ {(secrets.SURGE_TOKEN5)}
  
